@@ -57,12 +57,4 @@ struct Student {
    }
 }
 
-// Creating instance of the structure
-let anne = Student(name: "Anne Teak", grade: 5)
 
-// Calling instance method from object anne
-anne.displayInfo()
-
-// Calling type method
-let students = Student.dummyStudents()
-print("number of students: ", students.count)
